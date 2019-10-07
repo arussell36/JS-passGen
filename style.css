@@ -1,0 +1,201 @@
+/* SEMI-ATOMIC CLASSES */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.border {
+    border-style: solid;
+}
+
+
+
+/* FONTS */
+.franone {
+    font-family: 'Francois One', sans-serif;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* BACKGROUND */
+.bg1 {
+    background-color: #e3e3e3;
+}
+
+.bg2 {
+    background-color: white;
+}
+
+/* HEADER CLASSES */
+
+
+.bodycenter {
+    text-align: center;
+    padding: 0 0 2vh 0;
+}
+
+.headlay {
+    border-bottom-style: groove;
+    /* background-color: salmon; */
+    padding: 2vh 10vw 0vh 10vw;
+    margin: 0vh 6vw 0vh 6vw;
+}
+
+.navlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border-style: solid; */
+    list-style: none; 
+}
+
+.navname {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 6.5vh;
+    /* border-style: solid; */
+}
+
+.navtab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 1vh;
+    /* border-style: solid; */
+}
+
+.navbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2vh;
+    height: 3vh;
+    width: 10vh;
+    color: black;
+}
+.navbutton:hover {
+    text-decoration: underline;
+}
+
+
+
+/* MAIN CONTENT TABLES */
+
+.bodylay {
+    /* border-style: solid; */
+    padding: 5vh 16vw 5vh 16vw;
+}
+.tablelay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    position: relative;
+    background-color: black;
+}
+
+.textoverlay {
+    position: absolute;
+    bottom: 2vw;
+    left: 1vh;
+    width: 100%;
+    color: white;
+}
+
+.tablepicture {
+    width: 12vw;
+    padding-right: 1.5vw;
+}
+
+.portpic {
+    width: 13vw;
+    opacity: .6;
+    float: right;
+}
+
+
+/* FORM STYLES */
+
+.formcontainer {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.inputsizing {
+    width: 100%;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+.contacttitle {
+    display: block;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+.contactsizing {
+    width: 550px;
+    background: transparent;
+    padding: 4rem 0 4rem 0;
+  }
+
+.contactbox {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: #fff;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.1;
+  }
+
+  
+
+/* FOOTER STYLES */
+.footlay {
+    border-top-style: groove;
+    padding: .5vw 10vw 0vw 10vw;
+    margin: 0rem 6vw 0rem 6vw;
+    /* background-color: salmon; */
+    /* border-style: solid; */
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.linkpics {
+    height: 3vh;
+    padding-right: .5vw;
+    
+}
