@@ -76,7 +76,7 @@ function genNumber() {
     return randomNumber;
     };
 
-
+// random order function to shuffle the results
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -109,6 +109,7 @@ function shuffle(a) {
     };
 }
 
+// event listener for clicking the copy button
 document.getElementById("copyPassword").addEventListener("click", copyText());
 
 function copyText() {
@@ -119,6 +120,7 @@ function copyText() {
     textArea.select();
     document.execCommand("Copy");
     textArea.remove();
+    alert("Password Copied to Clipboard!")
 }
 
 
